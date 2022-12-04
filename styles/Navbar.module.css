@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Montserrat:wght@400;700;900&display=swap');
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+  width: 100%;
+  background: #340921;
+  color: white;
+  padding-inline: 35px;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.menu {
+  flex: 1;
+  width: 50%;
+}
+
+.list {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  float: right;
+}
+
+.listItem {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  width: max-content;
+  padding: 6px 20px;
+  cursor: pointer;
+  font-family:MedievalSharp, cursive, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+

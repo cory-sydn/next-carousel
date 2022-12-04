@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background: #541933;
+  color: #e1a791;
+}
+
+.footerItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerItem > h3 {
+  text-align: left;
+  font-size: 1rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+  padding-inline-start: 0;
+  font-size: 12px;
+  gap: 8px;
+}
+
+.column > li, .socialColumn > li {
+  cursor: pointer;
+}
+
+.socialColumn {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  padding-inline-start: 0;
+}
